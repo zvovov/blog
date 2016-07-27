@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+  <section>
+    <ul>
+      {% for post in paginator.posts %}
+        <li>
+          <div class="post-date">
+            <span>{{ post.date | date: "%d %b %Y" }}</span>
+          </div>
+          <div class="title">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+    <div id="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% endif %}
+    </div>
+  </section>
+
