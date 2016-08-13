@@ -6,9 +6,9 @@ updated: 2016-08-13 00:00
 
 # Idea was conceived
 
-With the onslaught of affordable sophisticated hardware, from our fellow earthlings in China, putting a mobile device in every person's hands (and lap), the content was bound to come. And it came, no holds barred.
+With the onslaught of affordable sophisticated hardware putting a mobile device in every person's hands (and lap), the content was bound to come. And it came, no holds barred. There are many quality TV shows to watch. More are being produced everyday.
 
-I was watching one by-product of this content creation phenomenon. [^1] So impressed by the placement of a song in a scene, I googled to find more about it.
+I was watching one such by-product of this content creation phenomenon. [^1] So impressed by the placement of a song in a scene, I googled to find more about it.
 
 Knowing a song's name shouldn't take this long, I thought. And began to turn the *shouldn't* into *doesn't.*
 
