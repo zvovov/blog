@@ -18,17 +18,17 @@ Knowing a song's name shouldn't take this long, I thought. And began to turn the
 
 # Keyboard bashing began
 
-I didn't start with a goal to create a python package. Development began with a single .py file. Just a script that does the job.
+I didn't start with a goal to create a python package. Development began with a single .py file. Just one script to do the job.
 
 The first commit sums up what I thought the job was initially.
 
 <script src="https://gist.github.com/zvovov/581d5ff1edf425544015b009d078295b.js"></script>
 
-I was aware of the TuneFind API, but I saw an opportunity to scrape the web, and I love me some web-scraping. ;)
+I was aware of the TuneFind API, but rather than using it, I seized an opportunity to scrape the web, and I love me some web-scraping. ;)
 
-So after storing tunefind's HTML response for a show [^2], beautifulsoup's services were called for.
+So after storing tunefind's HTML response for a show, [^2] locally, beautifulsoup's services were called for.
 
-Walking through the HTML tag jungle was getting murkier but I carried on anyway, cringing at how I would have change the code everytime tunefind decides to modify the UI, however slightly. I was beginning to come to terms with it.
+Walking through the HTML tag jungle was getting murkier but I carried on anyway. Meanwhile, the thought of changing the code everytime tunefind decided to alter the UI, however slightly, made me cringe. Still, I was beginning to come to terms with it.
 
 That was before I noticed this in the response.
 
@@ -38,7 +38,7 @@ That was before I noticed this in the response.
  {"id":35422,"event_group_id":3024,"name":"Gym","number":12,"original_air_date":1283817600,"locked":false,"episode_description":"Louis tries to get healthy.","question_count":0,"song_count":0,"airdate_day":"07","airdate_month":"09","airdate_month_short":"Sep","airdate_year":"2010","is_tombstone":false,"tombstone_conflict":false}
 ```
 
-Now, I'm no js expert, but it was clear [^3] that this data was being used by React to populate the appropriate fields while rendering the UI.
+Now, I'm no js expert, but it was clear [^3] that this data was being used by React to populate the appropriate fields while rendering the UI. It contains all the show and song related data.
 
 This js code is less likely to change than the HTML code of the page. So I loaded this in python using ``` json.loads() ``` and soaked in the momentary bliss.
 
@@ -54,11 +54,11 @@ became:
 _season_count = len(_json['show']['result']['seasons'])
 ```
 
-Code readability increased, reducing the development time.
+Code readability increased, which reduced the development time. Great!
 
-List of all songs from any TV show's any season's any episode could be summoned, on demand. A link to each song's YouTube search page is also displayed, so one could listen to the song right away.
+List of all songs from any TV show's any season's any episode could now be summoned, on demand. A link to each song's YouTube search page was also displayed, so one could listen to the song right away.
 
-At this point I thought about sharing the script. But setting up the environment (installing 3 python modules) to run the script was too much effort. There's got to be a better way...
+At this point, the script had become worthy of sharing. But setting up the environment (installing 3 python modules) to run the script was too much effort. I wouldn't install 3 modules to get some script working. There had to be a better way...
 
 # The better way - Python Packaging
 
@@ -66,7 +66,7 @@ The thought that my code would be on PyPI caused much excitement.
 
 I had the misconception that registering one's package on PyPI, which would make it accessible via a ``` pip install ``` command, involved some sort of code verification by distinguished python developers, and the process took days. But, fortunately, that is not the case. Anyone can upload their package on PyPI and it's available via pip instantly.
 
-**tvsongs** ended up on PyPI with the help of this great guide. [^4] Shoutout to [storborg](https://github.com/storborg), the guide's creator. Shoutout to [sharad5](https://github.com/sharad5) for contributing to the enhancement of tvsongs.
+Finally, **tvsongs** ended up on PyPI with the help of this great guide. [^4] Shoutout to [storborg](https://github.com/storborg), the guide's creator. Shoutout to [sharad5](https://github.com/sharad5) for contributing to the enhancement of tvsongs.
 
 > Install:
 > ``` pip install tvsongs ```
