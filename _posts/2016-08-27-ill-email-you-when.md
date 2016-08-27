@@ -4,7 +4,7 @@ tag: [python, web-scraping]
 updated: 2016-08-27 00:00
 ---
 
-On an unceremonius night, in a dimly lit room, facing the vaguely vermilion glare of the screen, I closed the browser window titled IP University Examination Results, in dissapointment. My results were not declared tonight. They were not out 3 hours ago either, nor were they out yesterday, or the day before, or the last week. I wasn't even expecting a stellar result. [^1] Still checking the results page was becoming something I had to do again and again.
+On an unceremonius night, in a dimly lit room, facing the vaguely vermilion glare of the screen, I closed the browser window titled IP University Examination Results, in dissapointment. My results were not declared tonight. They were not out 3 hours ago either, nor were they out yesterday, or the day before, or the last week. I wasn't even expecting a stellar result. [^1] Still checking the results page was becoming a chore I had to do multiple times a day.
 
 # Automate it, stupid!
 
