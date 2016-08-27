@@ -1,5 +1,5 @@
 ---
-title: A wild python package appeared - tvsongs
+title: A wild python package appeared
 tag: [python, web-scraping]
 updated: 2016-08-13 00:00
 ---
