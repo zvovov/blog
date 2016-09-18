@@ -108,6 +108,7 @@ span[data-note] {
   }
 }
 .logo {
+  position: relative;
   margin: 0 auto 35px;
   text-align: center;
   animation-duration: 0.5s;
@@ -338,21 +339,31 @@ section {
         color: #000;
         box-sizing: border-box;
       }
-      .post-details {
+      .post-date {
+        float: right;
+        display: inline-block;
+        margin-left: 2em;
+        color: #757575;
+        letter-spacing: 1px;
+        text-transform: uppercase;
         max-width: 100%;
         font-size: 20px;
         font-family: sans-serif;
         padding: 0.5em 0;
       }
-      .post-date {
-        float: right;
-        margin-left: 2em;
-        color: #757575;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
       .post-tags {
-        border-bottom: 1px solid #f14e32;
+        max-width: 100%;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        white-space: nowrap !important;
+        word-wrap: normal !important;
+        max-width: 100%;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 0.5em 0;
+        a {
+          border-bottom: 1px solid #f14e32;
+        }
       }
       @media (min-width: 992px) {a {
           border-bottom: 2px solid transparent;

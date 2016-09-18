@@ -15,14 +15,13 @@ layout: default
           <div class="title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </div>
-
-          <div class="post-details">
-            <span class="post-tags">
+          <div class="post-date">
+            <span>{{ post.date | date: "%d %b %Y" }}</span>
+          </div>
+          <div class="post-tags">
             {% for tag in post.tags %}
               <a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a>
             {% endfor %}
-            </span>
-            <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
           </div>
         </li>
       {% endfor %}
