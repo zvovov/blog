@@ -4,7 +4,7 @@ tag: [movies]
 updated: 2017-12-14 00:00
 ---
 
-> Magic Mike
+> Magic Mike  
 > **2012**  
 > **Steven Soderbergh**
 
