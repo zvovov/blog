@@ -1,5 +1,5 @@
 ---
-title: Things to do while walking through
+title: Things to do while walking
 tag: [blog]
 updated: 2019-03-23 00:00
 ---
