@@ -19,4 +19,4 @@ Things to do while walking down the road:
 - Beware of pigeons on the overhead wires. They time their shits so that it sticks on people walking directly under them. Do not be their prey.
 - Rap lyrics as you match your beat to your gait. Slim shady's by your side. You're unstoppable, incredible hulk, trapped in your medicine ball.[^1]
 
-[^1]: https://www.youtube.com/watch?v=RTMXzRHxYpI
+[^1]: [Drop the World](https://www.youtube.com/watch?v=RTMXzRHxYpI)
