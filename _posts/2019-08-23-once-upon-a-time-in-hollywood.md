@@ -4,9 +4,9 @@ tag: [movies]
 updated: 2019-08-23 00:00
 ---
 
-> Once Upon a Time in Hollywood
-> **2019**
-> **Quentin Tarantino**
+> Once Upon a Time in Hollywood  
+> **2019**  
+> **Quentin Tarantino**  
 
 Things seem new, shiny. I've caught myself noticing seemingly mundane things for far too long, quite a few times now. That unremarkable potted house plant deserves more of your attention than you actually bestow on it. Those life-giving creatures with complex inner systems that keep them alive, in turn helping them keep us humans alive, do not die from cancer.[^1] The indoor plant at my place lives on two doses of water a week. 2 in a week! This is when they are not even trying to push the limits, they can survive without it for far longer than a week. While you are patting yourself on the back for coming up with the one meal a day diet[^2], plants are sitting in your room like a buddhist monk and a honey badger at the same time, being so inspirational and modest and giving you writing material for your next diary entry.
 
