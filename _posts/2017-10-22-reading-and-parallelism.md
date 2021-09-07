@@ -1,6 +1,6 @@
 ---
 title: Reading and Parallelism
-tag: [blog]
+tag: [blog, books]
 updated: 2017-10-22 00:00
 ---
 
