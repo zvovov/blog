@@ -24,7 +24,7 @@ kramdown:
 sass:
     style:          :compressed
 # Pagination
-paginate:           4
+paginate:           5
 paginate_path:      /:num/
 # Other Params
 include:            [ "robots.txt" ]
