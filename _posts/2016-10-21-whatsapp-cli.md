@@ -44,7 +44,7 @@ There are still crashes every now and then, but those are not related to threadi
 
 Live in action.
 
-![WhatsApp Web CLI demo](/assets/post_images/whatsapp.png "WhatsApp Web CLI")
+![WhatsApp Web CLI demo]({{ '/assets/post_images/whatsapp.png' | relative_url }})
 
 
 > Source and Docs:

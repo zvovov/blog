@@ -14,7 +14,7 @@ Maybe the idea of a future is what drives people. Maybe, they like to think they
 You feel a sense of accomplishment because of what you perceive is praise-worthy. It is an acquired scale of measurement. You do something and you get a response. The position of the response on the scale decides your next actions. While having a well-informed external source(s) of response is vital, one must also have their own scale of measurement. You do not want to rely on external entities and their opinions to gauge your actions' worthiness. This is where most people fail. This is where _Dexter_ failed too.
 
 
-![Dexter](/assets/post_images/dexter_problems.jpg "Dexter")
+![Dexter]({{ '/assets/post_images/dexter_problems.jpg' | relative_url }})
 
 The ability to look at yourself, objectively, without your biases and your emotions is a wonderful thing to have.
 
